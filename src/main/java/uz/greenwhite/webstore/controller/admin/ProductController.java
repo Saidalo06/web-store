@@ -25,7 +25,7 @@ public class ProductController {
 
     private final CategoryService categoryService;
 
-    private final String FILE_ROOT = "FILES";
+    private final String FILE_ROOT = "resources/static/FILE";
 
     @GetMapping()
     public String listPage(Model model, Pageable pageable) {

@@ -23,7 +23,7 @@ import uz.greenwhite.webstore.service.CompanyDetailsService;
 @RequestMapping("/admin/data/companyDetails")
 public class CompanyDetailsController {
     private final CompanyDetailsService service;
-    private final String FILE_ROOT = "FILES";
+    private final String FILE_ROOT = "resources/static/FILE";
     
     @GetMapping()
     public String listPage(Model model, Pageable pageable) {
